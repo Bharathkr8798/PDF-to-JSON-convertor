@@ -1,8 +1,16 @@
+"""
+pdfplumber: A library used for extracting text and tables from PDF files.
+json: A standard Python library for working with JSON data, such as parsing, manipulating, and saving JSON.
+pandas: A powerful data manipulation library that is useful for working with structured data like tables.
+PyPDF2: A library for reading PDF files and extracting metadata and other information, such as the title, author, and creation date.
+"""
+
 import pdfplumber
 import json
 import pandas as pd
 from PyPDF2 import PdfReader
 
+# Function: extract_metadata
 
 def extract_metadata(pdf_path):
     """
@@ -16,6 +24,7 @@ def extract_metadata(pdf_path):
         "date": metadata.get('/CreationDate', 'Unknown Date')  # Extract creation date if available
     }
 
+#Function: clean_text
 
 def clean_text(text):
     """
@@ -25,6 +34,8 @@ def clean_text(text):
     cleaned_text = " ".join(text.split())
     return cleaned_text
 
+
+#Function: abstract_table_representation
 
 def abstract_table_representation(raw_table):
     """
@@ -67,6 +78,7 @@ def extract_text_and_tables(pdf_path):
             })
     return pages
 
+#Function: generate_jso 
 
 def generate_json(pdf_path):
     """
@@ -84,6 +96,7 @@ def generate_json(pdf_path):
     }
     return structured_data
 
+#Function: save_to_json
 
 def save_to_json(data, output_file):
     """
@@ -92,6 +105,8 @@ def save_to_json(data, output_file):
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=4, ensure_ascii=False)
 
+
+#Main Script Execution:
 
 if __name__ == "__main__":
     # Specify input PDF and output JSON paths
