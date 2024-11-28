@@ -30,12 +30,13 @@ Library Imports:
 
 Key Functions:
 
-1..extract_metadata(pdf_path): Extracts metadata such as title, author, and creation date from the PDF using PyPDF2.
-2..clean_text(text): Cleans extracted text by removing extra spaces and unwanted formatting.
-3..abstract_table_representation(raw_table): Converts raw table data (extracted by pdfplumber) into a dictionary format with column names and rows, leveraging pandas.
-4..extract_text_and_tables(pdf_path): Processes each page of the PDF to extract cleaned text and any tables present. The function iterates through each page and uses pdfplumber to extract text and table data.
-5..generate_json(pdf_path): Combines the metadata and the page-by-page text and table data into a structured format suitable for JSON output.
-6..save_to_json(data, output_file): Writes the structured data to a specified JSON file.
+1. extract_metadata(pdf_path): Extracts metadata such as title, author, and creation date from the PDF using PyPDF2.
+2. clean_text(text): Cleans extracted text by removing extra spaces and unwanted formatting.
+3. abstract_table_representation(raw_table): Converts raw table data (extracted by pdfplumber) into a dictionary format with column names and rows, leveraging pandas.
+4. extract_text_and_tables(pdf_path): Processes each page of the PDF to extract cleaned text and any tables present. The function iterates through each page and uses pdfplumber to extract text and table data.
+5. generate_json(pdf_path): Combines the metadata and the page-by-page text and table data into a structured format suitable for JSON output.
+6. save_to_json(data, output_file): Writes the structured data to a specified JSON file.
+
 
 Main Execution:
 
