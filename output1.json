@@ -1,0 +1,444 @@
+{
+    "document_title": "Sample Invoice",
+    "author": "CPB Software (Germany) GmbH",
+    "date": "D:20230908155751+02'00'",
+    "pages": [
+        {
+            "page_number": 1,
+            "text": "CPB Software (Germany) GmbH - Im Bruch 3 - 63897 Miltenberg/Main Musterkunde AG Mr. John Doe Musterstr. 23 12345 Musterstadt Name: Stefanie Müller Phone: +49 9371 9786-0 Invoice WMACCESS Internet VAT No. DE199378386 Invoice No Customer No Invoice Period Date 123100401 12345 01.02.2024 - 29.02.2024 1. März 2024 Amount Service Description quantity Total Amount -without VAT- Basic Fee wmView 130,00 € 1 130,00 € Basis fee for additional user accounts 10,00 € 0 0,00 € Basic Fee wmPos 50,00 € 0 0,00 € Basic Fee wmGuide 1.000,00 € 0 0,00 € Change of user accounts 10,00 € 0 0,00 € Transaction Fee T1 0,58 € 14 8,12 € Transaction Fee T2 0,70 € 0 0,00 € Transaction Fee T3 1,50 € 162 243,00 € Transaction Fee T4 0,50 € 0 0,00 € Transaction Fee T5 0,80 € 0 0,00 € Transaction Fee T6 1,80 € 0 0,00 € Transaction Fee G1 0,30 € 0 0,00 € Transaction Fee G2 0,30 € 0 0,00 € Transaction Fee G3 0,40 € 0 0,00 € Transaction Fee G4 0,40 € 0 0,00 € Transaction Fee G5 0,30 € 0 0,00 € Transaction Fee G6 0,30 € 0 0,00 € Total 381,12 € VAT 19 % 72,41 € Gross Amount incl. VAT 453,53 € Terms of Payment: Immediate payment without discount. Any bank charges must be paid by the invoice recipient. Bank fees at our expense will be charged to the invoice recipient! Please credit the amount invoiced to IBAN DE29 1234 5678 9012 3456 78 | BIC GENODE51MIC (SEPA Credit Transfer) This invoice is generated automatically and will not be signed",
+            "tables": [
+                {
+                    "columns": [
+                        "Invoice No",
+                        "Customer No",
+                        "Invoice Period",
+                        "Date"
+                    ],
+                    "rows": [
+                        {
+                            "Invoice No": "123100401",
+                            "Customer No": "12345",
+                            "Invoice Period": "01.02.2024 - 29.02.2024",
+                            "Date": "1. März 2024"
+                        }
+                    ]
+                },
+                {
+                    "columns": [
+                        "Service Description",
+                        "Amount\n-without VAT-",
+                        "quantity",
+                        "Total Amount"
+                    ],
+                    "rows": [
+                        {
+                            "Service Description": "Basic Fee wmView",
+                            "Amount\n-without VAT-": "130,00 €",
+                            "quantity": "1",
+                            "Total Amount": "130,00 €"
+                        },
+                        {
+                            "Service Description": "Basis fee for additional user accounts",
+                            "Amount\n-without VAT-": "10,00 €",
+                            "quantity": "0",
+                            "Total Amount": "0,00 €"
+                        },
+                        {
+                            "Service Description": "Basic Fee wmPos",
+                            "Amount\n-without VAT-": "50,00 €",
+                            "quantity": "0",
+                            "Total Amount": "0,00 €"
+                        },
+                        {
+                            "Service Description": "Basic Fee wmGuide",
+                            "Amount\n-without VAT-": "1.000,00 €",
+                            "quantity": "0",
+                            "Total Amount": "0,00 €"
+                        },
+                        {
+                            "Service Description": "Change of user accounts",
+                            "Amount\n-without VAT-": "10,00 €",
+                            "quantity": "0",
+                            "Total Amount": "0,00 €"
+                        },
+                        {
+                            "Service Description": "Transaction Fee T1",
+                            "Amount\n-without VAT-": "0,58 €",
+                            "quantity": "14",
+                            "Total Amount": "8,12 €"
+                        },
+                        {
+                            "Service Description": "Transaction Fee T2",
+                            "Amount\n-without VAT-": "0,70 €",
+                            "quantity": "0",
+                            "Total Amount": "0,00 €"
+                        },
+                        {
+                            "Service Description": "Transaction Fee T3",
+                            "Amount\n-without VAT-": "1,50 €",
+                            "quantity": "162",
+                            "Total Amount": "243,00 €"
+                        },
+                        {
+                            "Service Description": "Transaction Fee T4",
+                            "Amount\n-without VAT-": "0,50 €",
+                            "quantity": "0",
+                            "Total Amount": "0,00 €"
+                        },
+                        {
+                            "Service Description": "Transaction Fee T5",
+                            "Amount\n-without VAT-": "0,80 €",
+                            "quantity": "0",
+                            "Total Amount": "0,00 €"
+                        },
+                        {
+                            "Service Description": "Transaction Fee T6",
+                            "Amount\n-without VAT-": "1,80 €",
+                            "quantity": "0",
+                            "Total Amount": "0,00 €"
+                        },
+                        {
+                            "Service Description": "Transaction Fee G1",
+                            "Amount\n-without VAT-": "0,30 €",
+                            "quantity": "0",
+                            "Total Amount": "0,00 €"
+                        },
+                        {
+                            "Service Description": "Transaction Fee G2",
+                            "Amount\n-without VAT-": "0,30 €",
+                            "quantity": "0",
+                            "Total Amount": "0,00 €"
+                        },
+                        {
+                            "Service Description": "Transaction Fee G3",
+                            "Amount\n-without VAT-": "0,40 €",
+                            "quantity": "0",
+                            "Total Amount": "0,00 €"
+                        },
+                        {
+                            "Service Description": "Transaction Fee G4",
+                            "Amount\n-without VAT-": "0,40 €",
+                            "quantity": "0",
+                            "Total Amount": "0,00 €"
+                        },
+                        {
+                            "Service Description": "Transaction Fee G5",
+                            "Amount\n-without VAT-": "0,30 €",
+                            "quantity": "0",
+                            "Total Amount": "0,00 €"
+                        },
+                        {
+                            "Service Description": "Transaction Fee G6",
+                            "Amount\n-without VAT-": "0,30 €",
+                            "quantity": "0",
+                            "Total Amount": "0,00 €"
+                        },
+                        {
+                            "Service Description": null,
+                            "Amount\n-without VAT-": "Total",
+                            "quantity": null,
+                            "Total Amount": "381,12 €"
+                        },
+                        {
+                            "Service Description": null,
+                            "Amount\n-without VAT-": "VAT 19 %",
+                            "quantity": null,
+                            "Total Amount": "72,41 €"
+                        },
+                        {
+                            "Service Description": null,
+                            "Amount\n-without VAT-": "Gross Amount incl. VAT",
+                            "quantity": null,
+                            "Total Amount": "453,53 €"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "page_number": 2,
+            "text": "Invoice Details Period: 01.02.2024 to 29.02.2024 Unit: Musterkunde AG 12345 Request sections: T1: T2: T3: T4: T5: T6: G1: G2: G3: G4: G5: G6: Amount in Euro: 0,58 0,70 1,50 0,50 0,80 1,80 0,30 0,30 0,40 0,40 0,30 0,30 user-account-1 10 0 99 0 0 0 0 0 0 0 0 0 154,30 € user-account-2 4 0 63 0 0 0 0 0 0 0 0 0 96,82 € Transaction Fee Seg T1: T2: T3: T4: T5: T6: G1: G2: G3: G4: G5: G6: Queries in Total: 14 0 162 0 0 0 0 0 0 0 0 0 Total in Euro: 8,12 € 0,00 € 243,00 € 0,00 € 0,00 € 0,00 € 0,00 € 0,00 € 0,00 € 0,00 € 0,00 € 0,00 € 251,12 € The explanation of the query fee categories (T1 to T6 and G1 to G6) can be found on our website: https://www.wmaccess.com/abfragekategorien",
+            "tables": [
+                {
+                    "columns": [
+                        "Request sections:",
+                        "T1:",
+                        "T2:",
+                        "T3:",
+                        "T4:",
+                        "T5:",
+                        "T6:",
+                        "G1:",
+                        "G2:",
+                        "G3:",
+                        "G4:",
+                        "G5:",
+                        "G6:"
+                    ],
+                    "rows": [
+                        {
+                            "Request sections:": "Amount in Euro:",
+                            "T1:": "0,58",
+                            "T2:": "0,70",
+                            "T3:": "1,50",
+                            "T4:": "0,50",
+                            "T5:": "0,80",
+                            "T6:": "1,80",
+                            "G1:": "0,30",
+                            "G2:": "0,30",
+                            "G3:": "0,40",
+                            "G4:": "0,40",
+                            "G5:": "0,30",
+                            "G6:": "0,30"
+                        }
+                    ]
+                },
+                {
+                    "columns": [
+                        "user-account-1",
+                        "10",
+                        "0",
+                        "99",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "154,30 €"
+                    ],
+                    "rows": [
+                        {
+                            "user-account-1": "user-account-2",
+                            "10": "4",
+                            "0": "0",
+                            "99": "63",
+                            "154,30 €": "96,82 €"
+                        }
+                    ]
+                },
+                {
+                    "columns": [
+                        "Transaction Fee Seg",
+                        "T1:",
+                        "T2:",
+                        "T3:",
+                        "T4:",
+                        "T5:",
+                        "T6:",
+                        "G1:",
+                        "G2:",
+                        "G3:",
+                        "G4:",
+                        "G5:",
+                        "G6:",
+                        null
+                    ],
+                    "rows": [
+                        {
+                            "Transaction Fee Seg": "Queries in Total:",
+                            "T1:": "14",
+                            "T2:": "0",
+                            "T3:": "162",
+                            "T4:": "0",
+                            "T5:": "0",
+                            "T6:": "0",
+                            "G1:": "0",
+                            "G2:": "0",
+                            "G3:": "0",
+                            "G4:": "0",
+                            "G5:": "0",
+                            "G6:": "0",
+                            "null": null
+                        },
+                        {
+                            "Transaction Fee Seg": "Total in Euro:",
+                            "T1:": "8,12 €",
+                            "T2:": "0,00 €",
+                            "T3:": "243,00 €",
+                            "T4:": "0,00 €",
+                            "T5:": "0,00 €",
+                            "T6:": "0,00 €",
+                            "G1:": "0,00 €",
+                            "G2:": "0,00 €",
+                            "G3:": "0,00 €",
+                            "G4:": "0,00 €",
+                            "G5:": "0,00 €",
+                            "G6:": "0,00 €",
+                            "null": "251,12 €"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "page_number": 3,
+            "text": "Invoice Details for wmView Query Reference Period: 01.02.2024 to 29.02.2024 Unit: Musterkunde AG 12345 wmview, wmProfile and User Profiles Query Segments: Query Reference: T1: T2: T3: T4: T5: T6: *Not specified* 4 0 9 0 0 0 15,82 € AZR/31/27439 0 0 12 0 0 0 18,00 € CCL/3715 0 0 4 0 0 0 6,00 € CRS/28432 5 0 36 0 0 0 56,90 € Cs/52113 0 0 19 0 0 0 28,50 € GS 32090 1 0 7 0 0 0 11,08 € Kpi/22695 2 0 6 0 0 0 10,16 € PG 7772 0 0 11 0 0 0 16,50 € Rjn/11138 0 0 15 0 0 0 22,50 € SF-M 596/99-08 0 0 5 0 0 0 7,50 € Ttrb/17885 1 0 23 0 0 0 35,08 € WPN:24791 1 0 4 0 0 0 6,58 € Wwt/15658 0 0 11 0 0 0 16,50 € Price for each Query in Euro: 0,58 0,70 1,50 0,50 0,80 1,80",
+            "tables": [
+                {
+                    "columns": [
+                        "wmview, wmProfile and User Profiles Query Segments:",
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                    ],
+                    "rows": [
+                        {
+                            "wmview, wmProfile and User Profiles Query Segments:": "T1:",
+                            "null": "T6:"
+                        }
+                    ]
+                },
+                {
+                    "columns": [
+                        "*Not specified*"
+                    ],
+                    "rows": [
+                        {
+                            "*Not specified*": "AZR/31/27439"
+                        },
+                        {
+                            "*Not specified*": "CCL/3715"
+                        },
+                        {
+                            "*Not specified*": "CRS/28432"
+                        },
+                        {
+                            "*Not specified*": "Cs/52113"
+                        },
+                        {
+                            "*Not specified*": "GS 32090"
+                        },
+                        {
+                            "*Not specified*": "Kpi/22695"
+                        },
+                        {
+                            "*Not specified*": "PG 7772"
+                        },
+                        {
+                            "*Not specified*": "Rjn/11138"
+                        },
+                        {
+                            "*Not specified*": "SF-M 596/99-08"
+                        },
+                        {
+                            "*Not specified*": "Ttrb/17885"
+                        },
+                        {
+                            "*Not specified*": "WPN:24791"
+                        },
+                        {
+                            "*Not specified*": "Wwt/15658"
+                        }
+                    ]
+                },
+                {
+                    "columns": [
+                        "4",
+                        "0",
+                        "9",
+                        "0",
+                        "0",
+                        "0",
+                        "15,82 €"
+                    ],
+                    "rows": [
+                        {
+                            "4": "0",
+                            "0": "0",
+                            "9": "12",
+                            "15,82 €": "18,00 €"
+                        },
+                        {
+                            "4": "0",
+                            "0": "0",
+                            "9": "4",
+                            "15,82 €": "6,00 €"
+                        },
+                        {
+                            "4": "5",
+                            "0": "0",
+                            "9": "36",
+                            "15,82 €": "56,90 €"
+                        },
+                        {
+                            "4": "0",
+                            "0": "0",
+                            "9": "19",
+                            "15,82 €": "28,50 €"
+                        },
+                        {
+                            "4": "1",
+                            "0": "0",
+                            "9": "7",
+                            "15,82 €": "11,08 €"
+                        },
+                        {
+                            "4": "2",
+                            "0": "0",
+                            "9": "6",
+                            "15,82 €": "10,16 €"
+                        },
+                        {
+                            "4": "0",
+                            "0": "0",
+                            "9": "11",
+                            "15,82 €": "16,50 €"
+                        },
+                        {
+                            "4": "0",
+                            "0": "0",
+                            "9": "15",
+                            "15,82 €": "22,50 €"
+                        },
+                        {
+                            "4": "0",
+                            "0": "0",
+                            "9": "5",
+                            "15,82 €": "7,50 €"
+                        },
+                        {
+                            "4": "1",
+                            "0": "0",
+                            "9": "23",
+                            "15,82 €": "35,08 €"
+                        },
+                        {
+                            "4": "1",
+                            "0": "0",
+                            "9": "4",
+                            "15,82 €": "6,58 €"
+                        },
+                        {
+                            "4": "0",
+                            "0": "0",
+                            "9": "11",
+                            "15,82 €": "16,50 €"
+                        }
+                    ]
+                },
+                {
+                    "columns": [
+                        "Price for each Query in Euro:",
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                    ],
+                    "rows": [
+                        {
+                            "Price for each Query in Euro:": "0,58",
+                            "null": "1,80"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
