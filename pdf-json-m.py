@@ -110,8 +110,8 @@ def save_to_json(data, output_file):
 
 if __name__ == "__main__":
     # Specify input PDF and output JSON paths
-    pdf_file = "example3.pdf"  # Replace with your PDF file path
-    output_json = "output3.json"
+    pdf_file = "example1.pdf"  # Replace with your PDF file path
+    output_json = "output1.json"
     
     # Extract and save structured data
     try:
